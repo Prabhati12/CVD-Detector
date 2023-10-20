@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CVDDetect"
         tools:targetApi="31">
         <activity
+            android:name=".InputImage"
+            android:exported="false" />
+        <activity
             android:name=".InputParameters"
             android:exported="false" />
         <activity
